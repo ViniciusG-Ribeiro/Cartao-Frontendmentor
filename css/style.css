@@ -1,0 +1,73 @@
+/* --background-color: hsl(185, 75%, 39%);
+--text-color: hsl(227, 10%, 46%); */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+}
+
+.container-cartao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cartao{
+    width: 300px;
+    height: 320px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+#principal{
+    height: 75%;
+}
+
+#principal ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.cartao img{
+    border-radius: 50%;
+}
+
+p, .sub-texto, .idade{
+    font-family: "kumbh sans";
+}
+
+p.negrito, .idade{
+    font-weight: 700;
+}
+
+.sub-texto, .idade{
+    color: hsl(227, 10%, 46%);
+}
+
+.sub-texto{
+    font-weight: 400;
+}
+
+#segundario{
+    border-top: 3px solid hsla(231, 4%, 65%, 0.418);
+    height: 24%;
+}
+
+#segundario ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+#segundario ul li{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
